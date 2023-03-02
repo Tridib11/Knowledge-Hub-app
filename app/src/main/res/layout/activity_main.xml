@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ocean"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="@color/pinkpussy"
+        android:textSize="50dp"
+        android:text="Welcome to knowledge
+        hub"
+        android:layout_margin="10dp"
+        android:fontFamily="serif"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Here you will get knowledge about all types of tech contents"
+        android:paddingTop="30dp"
+
+        android:textStyle="bold"
+        android:textColor="@color/pp"
+
+
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="40dp"
+        android:src="@drawable/knowledge"
+        />
+
+    <Button
+        android:id="@+id/letsgobutton"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_margin="40dp"
+        android:background="#92521A91"
+        android:isScrollContainer="true"
+        android:shadowRadius="@android:integer/config_longAnimTime"
+        android:text="Lets go.."
+        android:textStyle="bold"
+        app:icon="@color/pinkpussy"
+        app:iconTint="#E8E6E4" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:textColor="@color/pinkpussy"
+
+        android:text="Copyright@TridibGhosh-2023" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000428"
+    tools:context=".secondActivity"
+    android:paddingTop="39dp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardweb1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/purple_200"
+        app:cardCornerRadius="20dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:src="@drawable/android"
+
+            />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="7dp"
+            android:paddingTop="89dp"
+            android:text="Android Developement"
+            android:textColor="@color/ocean"
+            android:textSize="15dp"
+            android:textStyle="bold"
+
+
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardweb2"
+        android:layout_width="30dp"
+        android:layout_height="150.5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@id/cardweb1"
+        android:backgroundTint="@color/purple_200"
+        app:cardCornerRadius="20dp">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="103dp"
+            app:srcCompat="@drawable/web" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="80dp"
+            android:text="Web development"
+            android:textColor="@color/ocean"
+            android:textSize="15dp"
+            android:textStyle="bold"
+
+
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardweb3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/cardweb1"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center"
+
+
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/purple_200"
+        app:cardCornerRadius="20dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            app:srcCompat="@drawable/blockchain" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="80dp"
+            android:text="Block Chain"
+            android:textColor="@color/ocean"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardweb4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/cardweb3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="false"
+        android:layout_gravity="center"
+
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/purple_200"
+        app:cardCornerRadius="20dp">
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:padding="10dp"
+            app:srcCompat="@drawable/ios" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="80dp"
+            android:text="IOS Developement"
+            android:textColor="@color/ocean"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardweb5"
+        android:layout_width="400dp"
+        android:layout_height="150.5dp"
+        android:layout_below="@id/cardweb2"
+        android:layout_gravity="center"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@id/cardweb3"
+        android:backgroundTint="@color/purple_200"
+        app:cardCornerRadius="20dp">
+
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            app:srcCompat="@drawable/macine"
+
+            />
+
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="80dp"
+            android:text="Machine Learning"
+            android:textColor="@color/ocean"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardweb6"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/cardweb5"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="39dp"
+
+
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_toRightOf="@id/cardweb4"
+        android:backgroundTint="@color/purple_200"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="80dp"
+            android:text="Artificial Inteligence"
+            android:textColor="@color/ocean"
+            android:textSize="15dp"
+            android:textStyle="bold"
+
+            />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            app:srcCompat="@drawable/ai" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardweb4"
+        android:layout_centerHorizontal="true"
+        android:background="#92521A91"
+        android:text="Contact us"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+
+        />
+</RelativeLayout>
